@@ -1,0 +1,4 @@
+public - można sie odnosci we wszyskich plikach
+private - odnosimy sie tylko w obrębie danej klasy
+protected - z klasy pochodnej lub pakietu
+domyślny - tylko z tego pakietu
