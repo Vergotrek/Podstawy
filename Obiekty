@@ -1,0 +1,29 @@
+public class Nazwa - tworzymy strukture obiektu
+{
+private int dlugosc;    - określamy jego cechy
+private string colowiek;
+}
+
+public Nazwa(int dlugosc, String colowiek)   - takie same zmienne wiec trzeba okreslic ze to te same
+{
+this.dlugosc = dlugosc;
+this.colowiek = colowiek;
+}
+
+NazwaPliku sos = new Nazwa(12 , "COKOLWIEK");  - tutaj tworzymy nowy obiekt 
+
+Get i Set - 1 pobiera, 2 ustawia to sa metody
+
+public int getdlugosc()
+{
+   return dlugiosc             - zwraca nam wczesniej okreslona wartosc
+}
+
+System.out.print(sos.getdlugosc());    - wypisuje wynik pobrany przez metode
+
+public void setdlugosc(int dlugosc)   - ustawiamy tak zeby to co wpiszmy zmienilo wartosc
+{
+  this.dlugosc = dlugosc;
+}
+
+sos.setdlugosc(14);    -  14 jest dowolna wartoscia ktora ustawiamy zaleznosci od naszych potrzeb
