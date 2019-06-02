@@ -6,3 +6,4 @@ float f = 3.444444f; // 38 po przecinku
 double d = 3.7777777777777; // 108 po przecinku
 char c = 'a'; // większość liter;
 String st = "dowolny tekst"; // tekst 
+boolean bo = false;  // zmienna przyjmujaca prawda/falsz - domyślnie false
